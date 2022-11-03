@@ -51,7 +51,7 @@ export class BingMapComponent implements OnChanges, AfterViewInit  {
       this.streetsideMapViewChild.nativeElement,
       {
         mapTypeId: Microsoft.Maps.MapTypeId.streetside,
-        credentials: 'AgANMPkBzn4mmz4EngB6Pv8-fjysyUv1segHk4hbwRircZRNll8eOFxcsg2NlVaD',
+        credentials: 'bingKEY',
         streetsideOptions: {
           overviewMapMode: Microsoft.Maps.OverviewMapMode.hidden,
           showExitButton: false,
